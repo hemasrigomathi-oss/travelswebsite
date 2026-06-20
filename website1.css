@@ -570,8 +570,8 @@ img:hover {
     grid-template-columns: auto auto;
     width: fit-content;
     gap: 50px;
-   /* margin-left: 250px;
-    margin-right: 250px;*/
+    margin-left: 250px;
+    margin-right: 250px;
     padding-top: 50px;
 }
 
@@ -761,9 +761,17 @@ img:hover {
         flex-direction: column;
         text-align: center;
     }
+    .section1 p{
+        margin-left: 230px;
+    }
+    
+    .se4{
+        margin-left: 285px;
+    }
+
 
     .reviews {
-        margin: 20px;
+        margin: 50px 50px;
     }
 
     .contact {
@@ -816,6 +824,15 @@ img:hover {
     .contact {
         padding: 20px;
     }
+
+    .section1 p{
+        margin-left: 90px;
+    }
+    
+    .se4{
+        margin-left: 140px;
+    }
+   
 }
 
 @media (max-width: 290px) {
@@ -853,6 +870,14 @@ img:hover {
     .card,
     .box {
         width: 100%;
+    }
+
+    .section1 p{
+        margin-left: 30px;
+    }
+    
+    .se4{
+        margin-left: 100px;
     }
 }
 
