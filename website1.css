@@ -816,8 +816,10 @@
     }
 
     .threee img {
-        width: 100%;
-        height: auto;
+        height: 300px;
+    }
+    .threeee p{
+        width: 700px;
     }
 
     .aboutt h2,
